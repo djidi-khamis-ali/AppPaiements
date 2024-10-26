@@ -1,0 +1,24 @@
+[33mcommit fe1e4f2cdf391f1293dac20750ce0b8b2e803c1d[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mdev-cartecredit[m[33m, [m[1;31morigin/dev-paiement[m[33m, [m[1;32mmain[m[33m, [m[1;32mdev-paiement[m[33m)[m
+Author: Ali Djidi <300140112@monboreal.ca>
+Date:   Wed Oct 16 15:41:56 2024 -0400
+
+    ajout de la class paiement
+
+[1mdiff --git a/AppPaiements/Paiement.cs b/AppPaiements/Paiement.cs[m
+[1mnew file mode 100644[m
+[1mindex 0000000..86d763c[m
+[1m--- /dev/null[m
+[1m+++ b/AppPaiements/Paiement.cs[m
+[36m@@ -0,0 +1,12 @@[m
+[32m+[m[32m﻿using System;[m
+[32m+[m[32musing System.Collections.Generic;[m
+[32m+[m[32musing System.Linq;[m
+[32m+[m[32musing System.Text;[m
+[32m+[m[32musing System.Threading.Tasks;[m
+[32m+[m
+[32m+[m[32mnamespace AppPaiements[m
+[32m+[m[32m{[m
+[32m+[m[32m    internal class Paiement[m
+[32m+[m[32m    {[m
+[32m+[m[32m    }[m
+[32m+[m[32m}[m
