@@ -1,4 +1,5 @@
 ﻿using AppPaiements;
+using System.Text.Json.Serialization.Metadata;
 
 internal class Program
 {
@@ -14,5 +15,18 @@ internal class Program
             CarteCredit.AfficherDetails();
         }
 
+
+   
+        Paypal paypal1 = new Paypal(90000,"ajout","al@gmail.com");
+        Paypal paypal2 = new Paypal(10000,"bon","dl@yahoo.fr");
+        List<Paypal> paypals = new List<Paypal> { paypal1, paypal2 };
+        Console.WriteLine("les comptes paypals sont :");
+        foreach (var Paypal in paypals)
+        {
+            Paypal.AfficheDetails();
+        }
+
     }
+
+
 }
